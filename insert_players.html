@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<style>
+body{ background-image: url("https://images.adsttc.com/media/images/5eda/b8eb/b357/652a/6100/029d/large_jpg/09_2590_171122_MB144_6561.jpg?1591392437");
+background-repeat: no-repeat;}
+</style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel = "stylesheet" href="mystyle.css">
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<title>Add Player Form</title>
+</head>
+
+<body>
+<h1><a href = "index.php" class = "homelink">AWC WIMBLEDON DATABASE</a></h1>
+
+<form action="insert_players.php" method="post">
+	<p>
+		<label for="playerID">Player ID:</label>
+		<input type="int" name="playerID" id="playerID">
+	</p>
+	<p>
+		<label for="firstName">First Name:</label>
+		<input type="text" name="firstName" id="firstName">
+	</p>
+	<p>
+		<label for="middleName">Middle Name:</label>
+		<input type="text" name="middleName" id="middleName">
+	</p>
+	<p>
+		<label for="lastName">Last Name:</label>
+		<input type="text" name="lastName" id="lastName">
+	</p>
+	<p>
+		<label for="dob">Date of Birth:</label>
+		<input type="datetime" name="dob" id="dob">
+	</p>
+	<p>
+		<label for="height">Height:</label>
+		<input type="float" name="height" id="height">
+	</p>
+	<p>
+		<label for="weight">Weight:</label>
+		<input type="float" name="weight" id="weight">
+	</p>
+	<p>
+		<label for="photoFile">Photo:</label>
+		<input type="file" name="photoFile" id="photoFile">
+	</p>
+	<p>
+		<input type="submit" value="Insert">
+	</p>	
+</form>
+</body>
+
+</html>
